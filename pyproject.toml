@@ -1,0 +1,18 @@
+[project]
+name = "cvxpy-dev"
+version = "0.1.0"
+description = "Convex optimization + machine learning examples using CVXPY and PyTorch"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cvxpy>=1.8.2",
+    "filelock>=3.25.2",
+    "fonttools>=4.62.1",
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.2",
+    "pillow>=12.2.0",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.67.3",
+]
